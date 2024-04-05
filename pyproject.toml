@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lazy_factory"
+version = "0.1.0"
+authors = [
+  { name="Hugo Viana", email="hugosemianoviana@gmail.com" },
+]
+description = "Lazy Factory Generic Class for simple Factory Pattern usages"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/hugo-viana/lazy_factory"
+"Bug Tracker" = "https://github.com/hugo-viana/lazy_factory/issues"
