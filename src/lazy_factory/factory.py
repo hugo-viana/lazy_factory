@@ -66,7 +66,7 @@ class LazyFactory(Generic[T]):
 
     def bulk_register(
         self,
-        items: Dict[str, Type[T]] | List[Type[T]],
+        items: Union[Dict[str, Type[T]], List[Type[T]]],  # noqa: TAE002
     ) -> None:
         """Bulk-Register new factory items.
 
