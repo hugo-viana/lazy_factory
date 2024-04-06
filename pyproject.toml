@@ -10,7 +10,7 @@ authors = [
 ]
 description = "Lazy Factory Generic Class for simple Factory Pattern usages"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.8"
 dependencies = []
 classifiers = [
     "Development Status :: 4 - Beta",
