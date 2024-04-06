@@ -4,4 +4,4 @@ from .factory import LazyFactory
 
 __all__ = ["LazyFactory"]
 
-__VERSION__ = "0.1.0"
+__VERSION__ = "0.1.1"

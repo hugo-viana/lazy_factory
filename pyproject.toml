@@ -4,13 +4,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "lazy_factory"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="Hugo Viana", email="hugosemianoviana@gmail.com" },
 ]
 description = "Lazy Factory Generic Class for simple Factory Pattern usages"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.8"
 dependencies = []
 classifiers = [
     "Development Status :: 4 - Beta",
